@@ -288,7 +288,7 @@ PrefabInstance:
     - target: {fileID: 7089665139791373283, guid: 6605a06a948427242b31ec894df9207f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.69
+      value: 18.47
       objectReference: {fileID: 0}
     - target: {fileID: 7089665139791373283, guid: 6605a06a948427242b31ec894df9207f,
         type: 3}
@@ -348,7 +348,7 @@ PrefabInstance:
     - target: {fileID: 8205403771400611013, guid: 6605a06a948427242b31ec894df9207f,
         type: 3}
       propertyPath: m_Intensity
-      value: 2
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6605a06a948427242b31ec894df9207f, type: 3}
@@ -2794,14 +2794,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706357282}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.45, y: -13.19, z: 23.369999}
+  m_LocalRotation: {x: -0, y: -0.21684313, z: -0, w: 0.9762065}
+  m_LocalPosition: {x: -9.25, y: -13.19, z: 22.33}
   m_LocalScale: {x: 3.358063, y: 4.43177, z: 1}
   m_Children:
   - {fileID: 1311557816}
   m_Father: {fileID: 1997436620}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -25.047, z: 0}
 --- !u!1001 &733821343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2817,7 +2817,7 @@ PrefabInstance:
     - target: {fileID: 7089665139791373283, guid: 6605a06a948427242b31ec894df9207f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.42
+      value: 13.15
       objectReference: {fileID: 0}
     - target: {fileID: 7089665139791373283, guid: 6605a06a948427242b31ec894df9207f,
         type: 3}
@@ -2877,7 +2877,7 @@ PrefabInstance:
     - target: {fileID: 8205403771400611013, guid: 6605a06a948427242b31ec894df9207f,
         type: 3}
       propertyPath: m_Intensity
-      value: 2
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6605a06a948427242b31ec894df9207f, type: 3}
@@ -4066,14 +4066,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908471385}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.43, y: -13.19, z: 23.369999}
+  m_LocalRotation: {x: -0, y: -0.5197132, z: -0, w: 0.85434085}
+  m_LocalPosition: {x: -11.87, y: -13.19, z: 19.53}
   m_LocalScale: {x: 3.358063, y: 4.43177, z: 1}
   m_Children:
   - {fileID: 1022605572}
   m_Father: {fileID: 1997436620}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -62.626003, z: 0}
 --- !u!64 &908471387
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4451,8 +4451,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998609891}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -8.83, y: 3.59, z: -22.94}
-  m_LocalScale: {x: 5.2737384, y: 5.2768297, z: 0.0098}
+  m_LocalPosition: {x: -8.83, y: 4.97, z: -22.94}
+  m_LocalScale: {x: 7.5952377, y: 7.1448274, z: 0.0098}
   m_Children:
   - {fileID: 953388958}
   m_Father: {fileID: 0}
@@ -5479,8 +5479,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4e0f8327baa84ca47b27e6948a9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioSource: {fileID: 0}
-  MyClip: {fileID: 0}
+  AudioSource: {fileID: 1072173111}
+  MyClip: {fileID: 8300000, guid: 177afd1a3931e8842965786a406ef414, type: 3}
   TextToChange: {fileID: 1253762172}
   ObjectToChange: {fileID: 1770046908}
   ElementInText: Cattura di Cristo, Caravaggio, 1602
@@ -5498,8 +5498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4e0f8327baa84ca47b27e6948a9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioSource: {fileID: 0}
-  MyClip: {fileID: 0}
+  AudioSource: {fileID: 1072173111}
+  MyClip: {fileID: 8300000, guid: a6891c3bcac80034f942de2b3c2226d9, type: 3}
   TextToChange: {fileID: 1253762172}
   ObjectToChange: {fileID: 1770046908}
   ElementInText: Cristo e l'Adultera, 1540-1550
@@ -5517,8 +5517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4e0f8327baa84ca47b27e6948a9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioSource: {fileID: 0}
-  MyClip: {fileID: 0}
+  AudioSource: {fileID: 1072173111}
+  MyClip: {fileID: 8300000, guid: 0ff505bd1644bd446b5ec224869e2245, type: 3}
   TextToChange: {fileID: 1253762172}
   ObjectToChange: {fileID: 1770046908}
   ElementInText: Ultima Cena, Leonardo, 1494-1498
@@ -7012,8 +7012,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4e0f8327baa84ca47b27e6948a9f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioSource: {fileID: 0}
-  MyClip: {fileID: 0}
+  AudioSource: {fileID: 1072173111}
+  MyClip: {fileID: 8300000, guid: e3fea006728954f4e8e5eb0f8cd6fb23, type: 3}
   TextToChange: {fileID: 1253762172}
   ObjectToChange: {fileID: 1770046908}
   ElementInText: Adorazione dei Magi, 1481

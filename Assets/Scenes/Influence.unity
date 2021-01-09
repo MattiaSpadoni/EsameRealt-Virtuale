@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 45165453}
   - component: {fileID: 45165452}
   - component: {fileID: 45165451}
-  - component: {fileID: 45165450}
+  - component: {fileID: 45165455}
   m_Layer: 5
   m_Name: Explanation
   m_TagString: Untagged
@@ -447,26 +447,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 184}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &45165450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45165448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7d72da0c8647f4897f3f5eed93f5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioSource: {fileID: 37981607}
-  MyClip: {fileID: 8300000, guid: 8379439b9df7de740ac9a659c5915c6b, type: 3}
-  ActionType: Explanation
-  Paths: []
-  Years: []
-  ImagePanel: {fileID: 0}
-  YearPanel: {fileID: 0}
-  ToActive: []
 --- !u!65 &45165451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -559,6 +539,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45165448}
   m_CullTransparentMesh: 0
+--- !u!114 &45165455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45165448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adb39c7f0048094a8f326ee37d929ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 37981607}
+  MyClip: {fileID: 8300000, guid: 8379439b9df7de740ac9a659c5915c6b, type: 3}
+  ActionType: Explanation
+  Paths: []
+  Years: []
+  ImagePanel: {fileID: 0}
+  YearPanel: {fileID: 0}
+  ToActive: []
 --- !u!1 &93641941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2226,7 +2226,7 @@ GameObject:
   - component: {fileID: 487115775}
   - component: {fileID: 487115774}
   - component: {fileID: 487115773}
-  - component: {fileID: 487115772}
+  - component: {fileID: 487115777}
   m_Layer: 5
   m_Name: Influence2
   m_TagString: Untagged
@@ -2254,35 +2254,6 @@ RectTransform:
   m_AnchoredPosition: {x: 250, y: 59.000034}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &487115772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487115770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7d72da0c8647f4897f3f5eed93f5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioSource: {fileID: 37981607}
-  MyClip: {fileID: 8300000, guid: f2c8b284abf3e6743a27c7eab1bb3995, type: 3}
-  ActionType: InfluenceMap
-  Paths:
-  - Materials/ImageTextures/ultimaCenaAltaDefinizione
-  - Materials/ImageTextures/AlbrechtDurerUltimaCena
-  - Materials/ImageTextures/Influence/InfluenceInvolved/BiragoLastSupper
-  Years:
-  - Ultima Cena, L. da Vinci, 1494-1498
-  - Ultima Cena, A. Durer, 1523
-  - Ultima Cena, G. Birago, 1500
-  ImagePanel: {fileID: 566204291}
-  YearPanel: {fileID: 1661185430}
-  ToActive:
-  - {fileID: 1071543795}
-  - {fileID: 1835245137}
-  - {fileID: 0}
 --- !u!65 &487115773
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2375,6 +2346,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487115770}
   m_CullTransparentMesh: 0
+--- !u!114 &487115777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487115770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adb39c7f0048094a8f326ee37d929ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 37981607}
+  MyClip: {fileID: 8300000, guid: f2c8b284abf3e6743a27c7eab1bb3995, type: 3}
+  ActionType: Drawings
+  Paths:
+  - Materials/ImageTextures/ultimaCenaAltaDefinizione
+  - Materials/ImageTextures/AlbrechtDurerUltimaCena
+  - Materials/ImageTextures/Influence/InfluenceInvolved/BiragoLastSupper
+  Years:
+  - Ultima Cena, L. da Vinci, 1494-1498
+  - Ultima Cena, A. Durer, 1523
+  - Ultima Cena, G. Birago, 1500
+  ImagePanel: {fileID: 566204291}
+  YearPanel: {fileID: 1661185430}
+  ToActive:
+  - {fileID: 1071543795}
+  - {fileID: 1835245137}
 --- !u!1 &495112600
 GameObject:
   m_ObjectHideFlags: 0
@@ -4150,6 +4149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872900847}
   - component: {fileID: 872900848}
+  - component: {fileID: 872900849}
   m_Layer: 0
   m_Name: InfluenceManager
   m_TagString: Untagged
@@ -4181,6 +4181,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61f8ee971b466b54ea534f4a6e4b4f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Deactivate: []
+--- !u!114 &872900849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872900846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8925d37eb8fedb347b63c97d7bb86d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Deactivate: []
@@ -5101,7 +5114,7 @@ GameObject:
   - component: {fileID: 1045559872}
   - component: {fileID: 1045559871}
   - component: {fileID: 1045559870}
-  - component: {fileID: 1045559869}
+  - component: {fileID: 1045559874}
   m_Layer: 5
   m_Name: Influence3
   m_TagString: Untagged
@@ -5129,35 +5142,6 @@ RectTransform:
   m_AnchoredPosition: {x: -250, y: -40.99996}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1045559869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1045559867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7d72da0c8647f4897f3f5eed93f5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioSource: {fileID: 37981607}
-  MyClip: {fileID: 8300000, guid: 7e931e55ea8e519498792f551459a532, type: 3}
-  ActionType: InfluenceMap
-  Paths:
-  - Materials/ImageTextures/ultimaCenaAltaDefinizione
-  - /Materials/ImageTextures/Influence/InfluenceInvolved/CoeckeUltimaCena
-  - Materials/ImageTextures/Influence/InfluenceInvolved/BiragoLastSupper
-  Years:
-  - Ultima Cena, L. da Vinci, 1494-1498
-  - Ultima Cena, P. C. Van Aelst
-  - Ultima Cena, G. Birago, 1500
-  ImagePanel: {fileID: 566204291}
-  YearPanel: {fileID: 1661185430}
-  ToActive:
-  - {fileID: 664147179}
-  - {fileID: 1835245137}
-  - {fileID: 1803110840}
 --- !u!65 &1045559870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5250,6 +5234,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045559867}
   m_CullTransparentMesh: 0
+--- !u!114 &1045559874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045559867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adb39c7f0048094a8f326ee37d929ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 37981607}
+  MyClip: {fileID: 8300000, guid: 7e931e55ea8e519498792f551459a532, type: 3}
+  ActionType: Drawings
+  Paths:
+  - Materials/ImageTextures/ultimaCenaAltaDefinizione
+  - Materials/ImageTextures/Influence/InfluenceInvolved/CoeckeUltimaCena
+  - Materials/ImageTextures/Influence/InfluenceInvolved/BiragoLastSupper
+  Years:
+  - Ultima Cena, L. da Vinci, 1494-1498
+  - Ultima Cena, P. C. Van Aelst
+  - Ultima Cena, G. Birago, 1500
+  ImagePanel: {fileID: 566204291}
+  YearPanel: {fileID: 1661185430}
+  ToActive:
+  - {fileID: 664147179}
+  - {fileID: 1835245137}
+  - {fileID: 1803110840}
 --- !u!1 &1055131251
 GameObject:
   m_ObjectHideFlags: 0
@@ -5994,7 +6007,7 @@ GameObject:
   - component: {fileID: 1232618201}
   - component: {fileID: 1232618200}
   - component: {fileID: 1232618199}
-  - component: {fileID: 1232618198}
+  - component: {fileID: 1232618203}
   m_Layer: 5
   m_Name: Influence5
   m_TagString: Untagged
@@ -6022,35 +6035,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -140.99997}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1232618198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232618196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7d72da0c8647f4897f3f5eed93f5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioSource: {fileID: 37981607}
-  MyClip: {fileID: 8300000, guid: 7666027ca757c9241a755f67cef36ea6, type: 3}
-  ActionType: InfluenceMap
-  Paths:
-  - Materials/ImageTextures/ultimaCenaAltaDefinizione
-  - Materials/ImageTextures/Influence/LateInfluence/Sara
-  - Materials/ImageTextures/Influence/LateInfluence/Morghen
-  Years:
-  - Ultima Cena, L. da Vinci, 1494-1498
-  - Mrs James Wyatt Jr and her Daughter Sarah, J. E. Millais, 1850
-  - Ultima Cena, R. Morghen, 1800-1810
-  ImagePanel: {fileID: 566204291}
-  YearPanel: {fileID: 1661185430}
-  ToActive:
-  - {fileID: 664147179}
-  - {fileID: 1611133215}
-  - {fileID: 223074679}
 --- !u!65 &1232618199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6143,6 +6127,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232618196}
   m_CullTransparentMesh: 0
+--- !u!114 &1232618203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232618196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adb39c7f0048094a8f326ee37d929ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 37981607}
+  MyClip: {fileID: 8300000, guid: 7666027ca757c9241a755f67cef36ea6, type: 3}
+  ActionType: Drawings
+  Paths:
+  - Materials/ImageTextures/ultimaCenaAltaDefinizione
+  - Materials/ImageTextures/Influence/LateInfluence/Sara
+  - Materials/ImageTextures/Influence/LateInfluence/Morghen
+  Years:
+  - Ultima Cena, L. da Vinci, 1494-1498
+  - Mrs James Wyatt Jr and her Daughter Sarah, J. E. Millais, 1850
+  - Ultima Cena, R. Morghen, 1800-1810
+  ImagePanel: {fileID: 566204291}
+  YearPanel: {fileID: 1661185430}
+  ToActive:
+  - {fileID: 664147179}
+  - {fileID: 1611133215}
+  - {fileID: 223074679}
 --- !u!1 &1279148524
 GameObject:
   m_ObjectHideFlags: 0
@@ -6156,7 +6169,7 @@ GameObject:
   - component: {fileID: 1279148529}
   - component: {fileID: 1279148528}
   - component: {fileID: 1279148527}
-  - component: {fileID: 1279148526}
+  - component: {fileID: 1279148531}
   m_Layer: 5
   m_Name: Influence4
   m_TagString: Untagged
@@ -6184,34 +6197,6 @@ RectTransform:
   m_AnchoredPosition: {x: 250, y: -40.99996}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1279148526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1279148524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7d72da0c8647f4897f3f5eed93f5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioSource: {fileID: 37981607}
-  MyClip: {fileID: 8300000, guid: 0b4bac6bbbf5e4047a1686f9e4c7ea0a, type: 3}
-  ActionType: InfluenceMap
-  Paths:
-  - Materials/ImageTextures/ultimaCenaAltaDefinizione
-  - Materials/ImageTextures/Influence/InfluenceInvolved/BoccaccinoPastori
-  - 
-  Years:
-  - Ultima Cena, L. da Vinci, 1494-1498
-  - 'Adorazione dei Pastori, Boccaccino, '
-  - 
-  ImagePanel: {fileID: 566204291}
-  YearPanel: {fileID: 1661185430}
-  ToActive:
-  - {fileID: 664147179}
-  - {fileID: 1209290840}
 --- !u!65 &1279148527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6304,6 +6289,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279148524}
   m_CullTransparentMesh: 0
+--- !u!114 &1279148531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279148524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adb39c7f0048094a8f326ee37d929ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 37981607}
+  MyClip: {fileID: 8300000, guid: 0b4bac6bbbf5e4047a1686f9e4c7ea0a, type: 3}
+  ActionType: Drawings
+  Paths:
+  - Materials/ImageTextures/ultimaCenaAltaDefinizione
+  - Materials/ImageTextures/Influence/InfluenceInvolved/BoccaccinoPastori
+  - 
+  Years:
+  - Ultima Cena, L. da Vinci, 1494-1498
+  - 'Adorazione dei Pastori, Boccaccino, '
+  - 
+  ImagePanel: {fileID: 566204291}
+  YearPanel: {fileID: 1661185430}
+  ToActive:
+  - {fileID: 664147179}
+  - {fileID: 1209290840}
 --- !u!1 &1336582929
 GameObject:
   m_ObjectHideFlags: 0
@@ -6394,7 +6407,7 @@ GameObject:
   - component: {fileID: 1342818418}
   - component: {fileID: 1342818417}
   - component: {fileID: 1342818416}
-  - component: {fileID: 1342818415}
+  - component: {fileID: 1342818420}
   m_Layer: 5
   m_Name: Influence1
   m_TagString: Untagged
@@ -6422,34 +6435,6 @@ RectTransform:
   m_AnchoredPosition: {x: -250, y: 59}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1342818415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342818413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7d72da0c8647f4897f3f5eed93f5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AudioSource: {fileID: 37981607}
-  MyClip: {fileID: 8300000, guid: 858b87c7f1c200541a1c06f7190d2bd5, type: 3}
-  ActionType: InfluenceMap
-  Paths:
-  - Materials/ImageTextures/ultimaCenaAltaDefinizione
-  - Materials/ImageTextures/Influence/InfluenceInvolved/TreEtaGiorgione
-  - 
-  Years:
-  - Ultima Cena, L. da Vinci, 1494-1498
-  - "Le tre et\xE0, Giorgione, 1500-1501"
-  - 
-  ImagePanel: {fileID: 566204291}
-  YearPanel: {fileID: 1661185430}
-  ToActive:
-  - {fileID: 1006591966}
-  - {fileID: 664147179}
 --- !u!65 &1342818416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6542,6 +6527,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342818413}
   m_CullTransparentMesh: 0
+--- !u!114 &1342818420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342818413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adb39c7f0048094a8f326ee37d929ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioSource: {fileID: 37981607}
+  MyClip: {fileID: 8300000, guid: 858b87c7f1c200541a1c06f7190d2bd5, type: 3}
+  ActionType: Drawings
+  Paths:
+  - Materials/ImageTextures/ultimaCenaAltaDefinizione
+  - Materials/ImageTextures/Influence/InfluenceInvolved/TreEtaGiorgione
+  - 
+  Years:
+  - Ultima Cena, L. da Vinci, 1494-1498
+  - "Le tre et\xE0, Giorgione, 1500-1501"
+  - 
+  ImagePanel: {fileID: 566204291}
+  YearPanel: {fileID: 1661185430}
+  ToActive:
+  - {fileID: 1006591966}
+  - {fileID: 664147179}
 --- !u!1 &1383548878
 GameObject:
   m_ObjectHideFlags: 0
