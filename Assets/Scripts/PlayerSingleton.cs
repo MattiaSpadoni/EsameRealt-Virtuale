@@ -7,6 +7,8 @@ public class PlayerSingleton : MonoBehaviour
     public AudioClip CurrentClip;
     public AudioSource AudioActive;
     public bool Confirmation = false;
+    public GazeableObject ActiveButton;
+    public GameObject LastHit;
 
 
     private static PlayerSingleton _Instance;

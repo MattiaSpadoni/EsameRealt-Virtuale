@@ -16,11 +16,12 @@ public class Drawings : GazeableObject
     private List<GameObject> ToActive = new List<GameObject>();
     public override void Press()
     {
+        base.Press();
 
         Debug.Log("started");
         switch (ActionType)
         {
-
+            
             //system acting to load the content
             case "Drawings":
                 //before it delete previous elements

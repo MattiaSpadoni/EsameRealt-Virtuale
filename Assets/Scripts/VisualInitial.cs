@@ -15,6 +15,7 @@ public class VisualInitial : GazeableObject
 
     public override void Press()
     {
+        base.Press();
         switch (Function)
         {
             case "Forward":

@@ -20,6 +20,7 @@ public class DoorAudio : GazeableObject
     }
     public override void Press()
     {
+        base.Press();
         // first interaction with the menu ever, nothing is running
         if (InitialSingleton.Instance.ActiveButton == null)
         {
