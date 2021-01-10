@@ -24,18 +24,6 @@ public class GazeMechanism : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (Input.GetKeyDown(KeyCode.Space)) 
-        {
-            string PrefabToCreate = "Prefabs/ChoiceThemeMenu";
-            string NameToGive = "ChoiceThemeMenu";
-            GameObject ObjectToCreate = Resources.Load(PrefabToCreate) as GameObject;
-            Debug.Log(ObjectToCreate.name);
-            ObjectToCreate.name = NameToGive;
-            Debug.Log(ObjectToCreate.name);
-            var FinalObject = Instantiate(ObjectToCreate);
-            FinalObject.name = NameToGive;
-            
-        }*/
 
         Ray();
         CardboardInput();
@@ -90,18 +78,24 @@ public class GazeMechanism : MonoBehaviour
     }
     public void CardboardInput()
     {
+        //Detecting if there is the collision
         if (IsCollision == false)
         {
+            //if there is, detect the cardboard input
             if (Input.GetMouseButtonDown(0))
             {
+                //if there is cardboard input create new Vector 3, take y position of the player
+                //take Z and X from the inactive position sphere in order to change the position without changing the height
+                //change position
                 Vector3 Yposition = new Vector3();
                 Yposition.y = PlayerSingleton.Instance.transform.position.y;
                 Yposition.x = PositionSphere.transform.position.x;
                 Yposition.z = PositionSphere.transform.position.z;
                 PlayerSingleton.Instance.transform.position = Yposition;
-                Debug.Log("mi sono spostato");
+                //Debug.Log("mi sono spostato");
             }
         }
+        //if there is collision make the sphere red.
         else if (IsCollision == true) 
         {
             if (Input.GetMouseButtonDown(0) && ActiveObject != null)
@@ -110,16 +104,36 @@ public class GazeMechanism : MonoBehaviour
                 Debug.Log("ho fatto delle azioni");
             }
         }
-        /**else if (Input.GetMouseButtonDown(0) && ActiveObject == null)
-        {
-            Vector3 Yposition = new Vector3();
-            Yposition.y = PlayerSingleton.Instance.transform.position.y;
-            Yposition.x = GuideSphere.transform.position.x;
-            Yposition.z = GuideSphere.transform.position.z;
-            PlayerSingleton.Instance.transform.position = Yposition;
-        }**/
+
 
     }
+    
+}
+
+
+
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * OLD CODE
+ * 
+ * 
+ * 
+ * 
+ * 
+ * else if (Input.GetMouseButtonDown(0) && ActiveObject == null)
+{
+    Vector3 Yposition = new Vector3();
+    Yposition.y = PlayerSingleton.Instance.transform.position.y;
+    Yposition.x = GuideSphere.transform.position.x;
+    Yposition.z = GuideSphere.transform.position.z;
+    PlayerSingleton.Instance.transform.position = Yposition;
+}*
     public void Debugger() 
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -134,4 +148,15 @@ public class GazeMechanism : MonoBehaviour
 
         }
     }
-}
+     
+     
+     
+
+
+     
+     
+     
+     
+     
+     
+     */

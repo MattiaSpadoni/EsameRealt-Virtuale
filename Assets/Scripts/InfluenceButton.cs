@@ -21,8 +21,10 @@ public class InfluenceButton : GazeableObject
     private int DictionaryIndex;
     public override void Press()
     {
+        base.Press();
         switch (ActionType) 
         {
+
             case "ChangeMenu": //classic case of changing menù
                 ObjectToChange.SetActive(true);
                 this.transform.root.gameObject.SetActive(false);

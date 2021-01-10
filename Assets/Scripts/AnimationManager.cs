@@ -10,6 +10,7 @@ public class AnimationManager : GazeableObject
 
     public override void Press()
     {
+        base.Press();
         switch (Action)
         {
             case "Start":

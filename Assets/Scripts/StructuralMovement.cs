@@ -14,6 +14,7 @@ public class StructuralMovement : GazeableObject
 
     public override void Press()
     {
+        base.Press();
         switch (ActionType)
         {
             case "Quit":
