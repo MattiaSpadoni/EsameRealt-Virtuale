@@ -1,2 +1,2 @@
-# EsameRealt-Virtuale
-Materiale dell'esame di Realtà Virtuale ed Aumentata del professore Gustavo Marfia dell'Università di Bologna
+﻿Repository of VR project "Leonardo and Last Supper: a case study between ontologies and virtual reality"
+Author: Mattia Spadoni.
